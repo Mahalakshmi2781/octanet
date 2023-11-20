@@ -1,1 +1,88 @@
+<html>
+<head>
+    <title>Mahalakshmi</title>
+    <header 
+        <ul id="left-nav">
+           <ls><a href="">about</a></ls></ul>
+        <ul id="left-nav">
+            <ls><a href="">homepage</a></ls></ul>
+        <ul id="left-nav">
+            <ls><a href="">features</a></ls></ul>
+        <ul id="left-nav">
+            <ls><a href="">contact</a></ls></ul>  
+        <ul id="left-nav">
+            <ls><a href="">address</a></ls></ul>      
+    </header>
+    
+    <script>
+        function submitForm(){
+            const formSubmitted = document.getElementById('form-submitted');
+            formSubmitted.innerHTML='<p color="aliceblue">Form has been submmited successfully</p>'
+        }
+    </script>
+</head>
+<style>
+body { background-image:
+    url('https://c8.alamy.com/comp/2DE20A9/a-pile-of-books-and-open-book-with-blurred-colour-as-background-and-copy-space-2DE20A9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+<body text="blue">
+    <br>
+    <br>
+    <center><h1><b>TASK1 LANDING PAGES</b></h1></center>
+    <center><h1><b>LIBRARY APPLICATION FORM</b></h1></center>
+    <table align="center" border-style="solid">
+        <form onsubmit="submitForm()" action="#">
+            <tr>
+                <td>Student name:</td>
+                <td><input type="text" name="sname" maxlength="15" size="30"></td>
+            </tr>
+            <tr>
+                <td>Father name:</td>
+                <td><input type="text" name="fname" maxlength="15" size="30" </td>
+            </tr>
+            <tr>
+                <td>College name:</td>
+                <td><input type="text" name="cname" maxlength="15" size="30" </td>
 
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="text" name="dob" id="dob" maxlength="15" size="30" </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male</input>
+                    <input type="radio" name="gender" value="female">Female</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address" maxlength="15" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="ename" size="30"></td>
+            </tr>
+           
+                <tr>
+                    <td>
+                       
+    <div id="form-submitted">
+<button><a href="responed1.html"> Submit</a></button>
+
+    </div>
+                    </td>
+                    </tr>
+            </center>
+    </table>
+    </form>
+</body>
+<footer>
+    &oopf;By Mahalakshmi Octanet internship (web development)Task 1
+   </footer>
+</html>
